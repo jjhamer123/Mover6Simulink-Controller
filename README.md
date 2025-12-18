@@ -1,15 +1,15 @@
 # Mover6Simulink-Controller
-This is a matlab simulink controller for the mover 6 robot, are functions for the generation of pathing for any robot that will path with polynomial,linaer and trapezoidal control.
+This is a matlab simulink controller for the mover 6 robot, there are functions for the generation of pathing for any robot that will path with polynomial,linaer and trapezoidal control.
 
-## Prequiresites
+## Prerequisites
 - Mover6 Driver - https://github.com/jonaitken/cpr_ros2#
 - Ros 2 Version - jazzy
 - Matlab Version - 2025b
 - Matlab simulink 2025b
-- MAtlab simulink robotics toolbox
+- Matlab simulink robotics toolbox
 ## Usage
-- Have the Ros 2 driver and running with the Mover6 arm Zeroed
-- change the XYZTest.m varible to desired vaible
+- Have the Ros 2 driver and running with the Mover6 arm zeroed
+- change the XYZTest.m variable to desired variable
 ```
  % Desired end Cartesian Pose
 XYZend = [0.3 0.5 1]    % meters
